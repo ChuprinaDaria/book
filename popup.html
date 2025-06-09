@@ -1,0 +1,42 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Slot Hunter</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      width: 250px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    input[type="date"] {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <label for="slot-date">Оберіть дату:</label>
+  <input type="date" id="slot-date">
+  <button id="start-btn">Почати перевірку</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>

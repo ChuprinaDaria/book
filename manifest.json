@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Slot Booker Inpol",
+  "version": "2.0",
+  "description": "Автоматичний пошук і бронювання слотів на inpol.mazowieckie.pl",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://inpol.mazowieckie.pl/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
